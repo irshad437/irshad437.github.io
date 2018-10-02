@@ -10,6 +10,12 @@
 
 html, body{
 	font-family: 'ptsans', sans-serif !important;
+	color: #00171F !important;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+	color: #00171F !important;
 }
 
 .fw7{
@@ -43,11 +49,12 @@ and (min-width : 1224px) {
 
 .cover{
 	justify-content: center;
-	background-image: url(../images/cover-2.jpg);
-	background-size: cover;
+	/*background-image: url(../images/cover-2.jpg);*/
+	/*background-size: cover;*/
 	height: 500px;
 	width: 100%;
 	color: #fbffff;
+	background-color: #00171f;
 }
 
 .cover *, .about-us .flexcolcen *{
@@ -80,15 +87,15 @@ and (min-width : 1224px) {
 	width: 100px;
 	height: 100px;
 	background-color: #fff;
-    border: 2px solid #79C376;
-    color: #79C376;
+    border: 2px solid #DE9151;
+    color: #DE9151;
 	font-size: 40px;
 	position: relative;
 }
 
 .about-container .img:hvoer{
 	background-color: #fff;
-	color: #79C376;
+	color: #DE9151;
 	width: 1000px;
 }
 
@@ -138,19 +145,19 @@ and (min-width : 1224px) {
 	background-color: #79C376;
 }
 
-.btn-green{
-	background-color: #79C376;
-	border-color: #79C376;
+.btn-hollow{
+	background-color: #00171f;
+	border: 2px solid #ffffff;
 	color: #fff;
 	margin: 20px;
 	padding: 12px 30px;
 	transition: all 0.3s ease-in-out;
 }
 
-.btn-green:hover, .btn-green:focus, .btn-green:active{
-	background-color: #fff;
-	opacity: 0.8;
-	color: #79C376;
+.btn-hollow:hover, .btn-hollow:focus, .btn-hollow:active{
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	color: #00171f;
 }
 
 
