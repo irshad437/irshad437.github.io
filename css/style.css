@@ -18,6 +18,10 @@ html, body{
 	color: #00171F !important;
 }
 
+.color-yellow{
+	color: #FFC857;
+}
+
 .fw7{
 	font-weight: 700;
 }
@@ -123,9 +127,53 @@ and (min-width : 1224px) {
 	height: 0;
 }
 
-.team{
+.work{
 	background-color: #f4f5f7;
 	padding: 50px;
+}
+
+.work .about-container .img{
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+
+.work .about-container p,
+.work .about-container h4,
+.work .about-container hr{
+	display: none;
+	margin-bottom: 0;
+}
+
+.work .about-container p{
+	font-size: 14px;
+}
+
+.work .about-container .project:hover p,
+.work .about-container .project:hover h4,
+.work .about-container .project:hover hr{
+	display: block;
+	background-color: #000000;
+}
+
+.work:hover a{
+	text-decoration: none !important;
+}
+
+.project{
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	background-color: #fff;
+    border: 2px solid #DE9151;
+    color: #DE9151;
+    justify-content: center;
+	margin: auto;
+}
+
+.work .project hr{
+	width: 100px;
+	margin: 0;
 }
 
 .diamond-hr{
@@ -142,7 +190,7 @@ and (min-width : 1224px) {
 	top: -5px;
 	width: 10px;
 	height: 10px;
-	background-color: #79C376;
+	background-color: #00171F;
 }
 
 .btn-hollow{
