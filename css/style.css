@@ -309,14 +309,16 @@ footer a:hover{
 
 /* CONTACT */
 .social-links i {
-  padding-left:25px;
-  padding-right:25px;
+  padding-left:10px;
+  padding-right:10px;
 	font-size: 2em;
 }
 
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 768px) {
 	.social-links i {
+    padding-left:25px;
+    padding-right:25px;
     font-size: 4em;
 	}
 }
