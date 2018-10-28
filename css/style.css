@@ -306,3 +306,45 @@ footer a:hover{
 .navbar-default{
 	margin-bottom: 0;
 }
+
+/* CONTACT */
+.social-links i {
+  padding-left:25px;
+  padding-right:25px;
+}
+
+a {
+  color: #474e5d;
+}
+
+a:hover {
+  color: #bb0000;
+}
+
+.fa-twitter:hover {
+  color: #0084b4;
+}
+
+.fa-codepen:hover {
+  color: black;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-linkedin:hover {
+  color: #007bb5;
+}
+
+.fa-instagram:hover {
+  color: #e95950;
+}
+
+.fa-github-alt:hover {
+  color: #333333;
+}
+
+.fa-free-code-camp:hover {
+  color: #006400;
+}
